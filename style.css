@@ -37,7 +37,7 @@ nav {
 
 section, aside {
 	box-sizing: border-box;
-	margin-top: 5px;
+	margin-top: 10px;
 	/*margin-bottom: 50px;*/
 	height: 250px;
 }
@@ -51,7 +51,6 @@ section {
 }
 
 article {
-	width: 98%;
 	margin-top: 20px;
 	/*margin-left: 2px;*/
 	/*margin: 5px;*/
@@ -63,17 +62,20 @@ article {
 
 h1 {
 	/*margin: 2px*/
-	padding: 3px;
+	
+	box-sizing: border-box;
+	padding: 8px;
 	color: #777;
 	background-color: #ebebeb; 
-	margin-bottom: 3x;
+	margin-bottom: 3px;
 	font-size: 20px;
 	font-style: "strong";
 }
 
 p {
+	box-sizing: border-box;
 	/*margin: 2px;*/
-	padding: 3px;
+	padding: 8px;
 	color: #777;
 	background-color: #ebebeb;
 	margin-bottom: 15px;
@@ -92,7 +94,10 @@ aside {
 
 footer {
 	clear: both;
-	margin-top: 20px;
+	float: left;
+	box-sizing: border-box;
+	width: 100%;
+	margin-top: 10px;
 	/*background-color: #ebebeb;
 	padding: 20px;
 	margin-top: 5px;
